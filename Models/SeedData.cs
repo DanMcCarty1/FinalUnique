@@ -45,7 +45,7 @@ public static class SeedData
                 {
                     CardName = "Lightning Bolt",
                     CardColor= "Red",
-                    CardPrice = 600,
+                    CardPrice = 600m,
                     Rarity = "Common",
                     ExspansionName = "Judge"
                 }

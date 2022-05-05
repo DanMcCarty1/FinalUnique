@@ -10,14 +10,14 @@ using FinalUnique.Models;
 
 namespace FinalUnique.Pages.Cards
 {
-    public class CreateModel : PageModel
+    public class CardModel : PageModel
     {
         private readonly CardContext _context;
-        private readonly ILogger<CreateModel> _logger;
+        private readonly ILogger<CardModel> _logger;
         [BindProperty]
         public Card Card {get; set;}
 
-        public CreateModel(CardContext context, ILogger<CreateModel> logger)
+        public CardModel(CardContext context, ILogger<CardModel> logger)
         {
             _context = context;
             _logger = logger;

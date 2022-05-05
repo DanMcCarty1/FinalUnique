@@ -14,8 +14,9 @@ namespace FinalUnique
     [StringLength(60, MinimumLength = 3)]
     [Required]
     public string CardColor {get; set;}
-    [StringLength(60, MinimumLength = 3)]
-    [Required]
+    [Range(1,100)]
+    [DataType(DataType.Currency)]
+    [Column(TypeName = "decimal(18,2)")]
     public decimal CardPrice {get; set;}
     [StringLength(5)]
     [Required]
