@@ -15639,6 +15639,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Dan\\FinalUnique\\Pages\\Cards\\AddCard.cshtml",
+      "TargetPath": "Pages\\Cards\\AddCard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Dan\\FinalUnique\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15646,6 +15651,11 @@
     {
       "FilePath": "c:\\Users\\Dan\\FinalUnique\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Dan\\FinalUnique\\Pages\\Cards\\index.cshtml",
+      "TargetPath": "Pages\\Cards\\index.cshtml",
       "FileKind": "mvc"
     },
     {

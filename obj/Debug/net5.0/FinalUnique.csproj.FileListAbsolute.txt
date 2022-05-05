@@ -65,3 +65,5 @@ C:\Users\Dan\FinalUnique\obj\Debug\net5.0\FinalUnique.dll
 C:\Users\Dan\FinalUnique\obj\Debug\net5.0\ref\FinalUnique.dll
 C:\Users\Dan\FinalUnique\obj\Debug\net5.0\FinalUnique.pdb
 C:\Users\Dan\FinalUnique\obj\Debug\net5.0\FinalUnique.genruntimeconfig.cache
+C:\Users\Dan\FinalUnique\obj\Debug\net5.0\Razor\Pages\Cards\AddCard.cshtml.g.cs
+C:\Users\Dan\FinalUnique\obj\Debug\net5.0\Razor\Pages\Cards\index.cshtml.g.cs

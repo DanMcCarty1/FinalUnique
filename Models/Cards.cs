@@ -34,8 +34,5 @@ namespace FinalUnique
     [Display(Name = "Release Date")]
     [DataType(DataType.Date)]
     public DateTime ReleaseDate {get; set;}
-    [StringLength(60, MinimumLength = 3)]
-    [Required]
-    public string ReservedList {get; set;}
 }
 }

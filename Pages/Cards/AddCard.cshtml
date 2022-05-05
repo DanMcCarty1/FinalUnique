@@ -1,0 +1,54 @@
+@page
+@model FinalUnique.Pages.Cards.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Card Collection</h1>
+
+<h4>Input Info</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Card.CardName" class="control-label"></label>
+                <input asp-for="Card.CardName" class="form-control" />
+                <span asp-validation-for="Card.CardName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Card.CardColor" class="control-label"></label>
+                <input asp-for="Card.CardColor" class="form-control" />
+                <span asp-validation-for="Card.CardColor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Card.ExspansionName" class="control-label"></label>
+                <input asp-for="Card.ExspansionName" class="form-control" />
+                <span asp-validation-for="Card.ExspansionName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Card.CardPrice" class="control-label"></label>
+                <input asp-for="Card.CardPrice" class="form-control" />
+                <span asp-validation-for="Card.CardPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Card.Rarity" class="control-label"></label>
+                <input asp-for="Card.Rarity" class="form-control" />
+                <span asp-validation-for="Card.Rarity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
